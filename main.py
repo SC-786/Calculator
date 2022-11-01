@@ -5,6 +5,7 @@ from tkmacosx import Button
 def get_input(entry, keyword):
     entry.insert(END, keyword)
 
+
 def clear(entry):
     entry.delete(0, END)
 
